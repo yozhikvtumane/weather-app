@@ -29,7 +29,6 @@ const weather = {
 }
 
 function tempSwitcher(e) {
-
     if (e.target.id === 'celsius') {
         if (celsActive) return
         
