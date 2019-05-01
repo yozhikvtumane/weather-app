@@ -5,115 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <title>Document</title>
+    <title>Weather App by location provided</title>
     <link rel="stylesheet" href="styles/style.css">
-    <style>
-    
-    @import url(https://necolas.github.io/normalize.css/3.0.2/normalize.css);
-
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-    html, body {
-        margin: 0;
-        padding: 0;
-    }
-    h1,h2,h3,h4 {
-        margin: 0;
-        padding: 0;
-    }
-    img {
-        max-width: 100%;
-    }
-    body {
-        overflow: hidden;
-        color: #fff;
-        font-size: 200%;
-        font-family: Roboto, sans-serif;
-        text-align: center;
-        text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-        background-color: #a677b9;
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxyYWRpYWxHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGN4PSI1OSUiIGN5PSIxNDclIiByPSIxNjAuMiUiPjxzdG9wIHN0b3AtY29sb3I9IiNmZmMwODgiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2U1NDRjNiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMzk1Ii8+PHN0b3Agc3RvcC1jb2xvcj0iI2U1NDRjNiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMzk1Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzA1OWNjNCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
-    }
-    header {
-        position: relative;
-        top: 20%;
-    }
-    #weather {
-        position: relative;
-        top: 35%;
-    }
-    header a {
-        color: #fff;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    .site-wrapper {
-        width: 100vw;
-        height: 100vh;
-        min-height: 100%;
-        -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-        box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    }
-
-    .temperature-output {
-        display: flex;
-        justify-content: center;
-    }
-
-    .temperature-output ul {
-        display: inline-block;
-        margin: 0;
-        padding: 0 0.6em;
-    }
-
-    .temp-button {
-        display: inline;
-        cursor: pointer;
-        padding: 0 5px;
-    }
-
-    .temp-active {
-        background-color: rgba(255, 255, 255, 0.42);
-        border-radius: 3px;
-        color: #fff;
-    }
-
-    
-    #icon-wrapper svg {
-        min-width: 3em;
-        min-height: 3em;
-    }
-    #icon-wrapper img {
-        max-width: 4em;
-        display: block;
-        margin: 0 auto;
-    }
-    
-    .loader {
-        display: none;
-        margin: 0 auto;
-        fill: #ffffff;
-        animation: loaderSpin 2s linear infinite;
-        /* display: none; */
-    }
-    
-    .loader-active {
-        display: block;
-    }
-
-    @keyframes loaderSpin {
-        from {
-            transform: rotate(360deg);
-        }
-        to {
-            transform: rotate(0deg);
-        }
-    }
-    </style>
 </head>
 <body>
     <div class="site-wrapper">
@@ -141,6 +34,6 @@
             </div>
         </div>
     </div>
-    <script src="app.js"></script>    
+    <script src="scripts/app.js"></script>    
 </body>
 </html>

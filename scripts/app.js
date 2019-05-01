@@ -1,5 +1,3 @@
-//TODO
-
 const key = '&appid=f4bd28c35a4186f44a239f43bcceca95'
 const metricUnits = '&units=metric'
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?'
