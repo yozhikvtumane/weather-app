@@ -62,7 +62,7 @@ function getCoordinates() {
             coordinates.lon = strLon[0] + '.' + strLon[1].slice(0,2)
 
             getWeather(coordinates)
-        })
+        }, (err)=>alert('This app depends on current position, it can\'t work without a position!'))
     }
 }
 
